@@ -49,13 +49,13 @@
             font-weight: $font-semi-bold;
         }
         &__link {
-           
+            padding: .5rem 1rem;
             &:hover {
                 
                 background-color: $first-color;
                 color: $container-color;
                 padding: .5rem 1rem;
-                transition: .5s ease;
+                transition: .6s ease-in-out;
                 border: none;
                 border-radius: 2rem;
                 outline: none;
