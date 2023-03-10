@@ -1,19 +1,19 @@
-
-
-/*===== MENU SHOW =====*/ 
+/*=============== SHOW MENU ===============*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
-
+    
+    // Validate that variables exist
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
+            // We add the show-menu class to the div tag with the nav__menu class
             nav.classList.toggle('show-menu')
         })
     }
 }
-showMenu('nav-toggle','nav-menu') 
+showMenu('nav-toggle','nav-menu')
 
-/*==================== REMOVE MENU MOBILE ====================*/
+/*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -43,15 +43,13 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
-    const header = document.getElementById('header')
+    const nav = document.getElementById('header')
     // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 80) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+    if(this.scrollY >= 80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
 
 /*=============== SHOW SCROLL UP ===============*/
 function scrollUp(){
