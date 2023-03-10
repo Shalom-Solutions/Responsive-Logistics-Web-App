@@ -342,7 +342,7 @@ body.dark-theme {
     width: 540px;
   }
   .home__description {
-    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .footer__container {
     -moz-column-gap: 3rem;
