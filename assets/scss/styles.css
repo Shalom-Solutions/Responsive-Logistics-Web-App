@@ -130,9 +130,12 @@ body.dark-theme {
   align-items: center;
   row-gap: 1.5rem;
 }
-.nav__link, .nav__logo, .nav__toggle {
+.nav__link, .nav__toggle {
   color: hsl(118, 4%, 15%);
   font-weight: 600;
+}
+.nav__logo {
+  color: hsl(118, 50%, 60%);
 }
 .nav__toggle {
   font-size: 1.3rem;

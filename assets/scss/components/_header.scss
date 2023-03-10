@@ -44,10 +44,12 @@
 
         }
         &__link,
-        &__logo,
         &__toggle {
             color: $title-color;
             font-weight: $font-semi-bold;
+        }
+        &__logo {
+            color: $first-color;
         }
         &__toggle{
             font-size: 1.3rem;
