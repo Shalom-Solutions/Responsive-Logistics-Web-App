@@ -48,6 +48,22 @@
             color: $title-color;
             font-weight: $font-semi-bold;
         }
+        &__link {
+           
+            &:hover {
+                
+                background-color: $first-color;
+                color: $container-color;
+                padding: .5rem 1rem;
+                transition: .5s ease;
+                border: none;
+                border-radius: 2rem;
+                outline: none;
+            }
+        }
+
+
+
         &__logo {
             color: $first-color;
         }
